@@ -1,0 +1,182 @@
+/* ------- LAYOUT ------ */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+  border-width: 3px;
+  background-color :#a39a9a;
+}
+
+.main-container {
+  display: flex;
+  flex-basis: 1200px;
+  justify-content: space-between;
+
+}
+
+/* ------GENERAL------- */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+/* ------- ASIDE ------ */
+
+aside {
+  background-color: #a39a9a;
+  flex-basis: 30%;
+  margin-right: 3%;
+}
+
+aside * {
+  color: rgb(44, 37, 37);
+}
+
+aside h2 {
+  letter-spacing: 2px;
+}
+
+aside section h2:first-child {
+  border-bottom: 1.5px solid white;
+}
+
+#foto-perfil img {
+  border-radius: 50%;
+}
+
+/* ------- MAIN ------*/
+main {
+  flex-basis: 70%;
+}
+
+main section h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero {
+  background-color: #edc0af;
+  box-shadow: 1px 1px 30px 3px #647087 inset;
+  padding: 15% 0;
+  text-align: center;
+}
+
+.hero h1 {
+  letter-spacing: 10px;
+}
+
+.hero h2 {
+  color: white;
+  border-top: 1px solid white;
+  letter-spacing: 10px;
+}
+
+.sobre-mi {
+  background-color: #e9e1da;
+
+}
+
+.experiencia p {
+  font-size: 20px;
+}
+
+.experiencia li {
+  font-size: 18px;
+}
+
+.experiencia h5 {
+  font-size: 16px;
+}
+
+.sobre-mi p {
+  line-height: 2em;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.sobre-mi h2 {
+  background-color: white;
+}
+
+article h3 article h4 {
+  font-weight: bold;
+}
+
+article ul {
+  list-style-type: square;
+}
+
+.referencias {
+  margin-top: 15%;
+  display: flex;
+
+  text-align: center;
+}
+
+.referencias p {
+  font-size: 20px;
+}
+
+.referencias article {
+  flex-basis: 40%;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+dt,
+dd {
+  line-height: 1.5em;
+  border-top: 1px solid white;
+  flex-basis: 40%;
+  margin: 0;
+}
+
+dt {
+  font-weight: bolder;
+  clear: left;
+  flex-basis: 30%;
+  float: left;
+  border-top: 1px solid white;
+
+}
+
+dd {
+  clear: right;
+  flex-basis: 50%;
+  float: left;
+  margin: 0;
+  border-top: 1px solid white;
+}
+
+dt :last-of-type dd :last-of-type {
+  border-bottom: 1px solid white;
+}
+
+/* ------METER------ */
+
+meter {
+  display: block;
+  width: 80%;
+
+}
+
+meter::-webkit-meter-optimum-value {
+  background: none;
+  background-color: rgb(145, 194, 130);
+
+}
