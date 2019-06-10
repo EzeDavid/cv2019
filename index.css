@@ -1,6 +1,24 @@
+/* RESPONSIVE +/
+
+/* ------TAMAÑO-CELULAR----- */ 
+
+   @media (max-width:488px){
+
+}
+
+/* -----TAMAÑO-TABLET---- */
+
+@media (max-width:480px), (max-width:980px){
+
+}
+
+/* ------ TAMAÑO-PC----- */
+@media (min-width:980px){
+
+}
+
 /* ------- LAYOUT ------ */
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 hr {
